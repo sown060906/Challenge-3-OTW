@@ -1,24 +1,36 @@
 # Challenge-3-OTW
 Bandit
-level 0
+
 level 0 bảo chúng ta đăng nhập vào server bằng ssh
 một câu lệnh ssh tối thiểu bao gồm 
  ssh username@host -p port
   user name là tên tài khoản 
+
+
   host tên server 
+  
   -p  là khai báo cổng 
+  
   port là mã cổng 
+  
 ví dụ như đăng nhập vào bandit0 như sau 
- ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+ssh bandit0@bandit.labs.overthewire.org -p 2220
  ![Screenshot (41)](https://github.com/user-attachments/assets/7c69e74b-ec37-4096-b367-47993c9c4b37)
-có 1 cách khác nữa là 
- khai báo máy chủ và port sau đó khai báo user name 
+có 1 cách khác nữa là khai báo máy chủ và port sau đó khai báo user name 
+ 
  ssh host -p port -l username
+ 
  ssh bandit.labs.overthewire.org -p2220 -l bandit0 
+
+
 level 0->1 pass: bandit0
+
   tóm tắt level : Mật khẩu của level tiếp theo nằm trong file readme nằm trong thư mục gốc.
+ 
  lệnh ls(list) trong Linux được dùng để liệt kê các tệp và thư mục trong một thư mục.
  cat readme 
+ 
  cat là viết tắt của concatenate trong Linux lệnh này dùng để hiển thị nội dung file
  ![Screenshot (42)](https://github.com/user-attachments/assets/f6aeb163-18e8-44f8-92a8-a3309ad36c95)
 
@@ -28,17 +40,30 @@ tóm tắt level: Pass nằm trong file tên "-"
 	cat ./- dùng đường dẫn tuyệt đối ./file (./ để tránh nhầm lẫn các file có tên bắt đầu từ ký tự đặc biệt)
  ![Screenshot (43)](https://github.com/user-attachments/assets/adf96c63-9403-40e2-b53a-40db567072b7)
 	có nhiều cách  
-  pwd (print working directory) -> cat /home/bandit1/- hiển thị đường dẫn tuyệt đối sau đó 
-	cat < - 
+  pwd (print working directory) -> cat /home/bandit1/- hiển thị đường dẫn tuyệt đối 
+  
+	cat < - (" < "dùng để chuyển hướng đầu vào  từ một file vào một lệnh trong đây là cat và sử dụng thư mục "-" làm đầu vào)
 
-level 2->3 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+level 2->3  263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+để chuyển hướng đầu vào (input redirection) từ một file vào một lệnh
+
 tóm tắt level: Tìm mật khẩu trong một file có tên spaces in this filename
-	cat "spaces in this filename" cho vào dấu nháy kép để 
-	cat spaces\ in\ this\ filename
-cần 
+
+	cat "spaces in this filename" cho vào dấu nháy kép để rõ ràng tên file
+ 
+	cat spaces\ in\ this\ filename (dấu '\ ' để viết ký tự khoảng trắng  
+ 
+![Screenshot (44)](https://github.com/user-attachments/assets/cc2c2e5a-47ce-4864-87ad-aff1d9e201f5)
+
+
 level 3->4 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
-	ls-la (liệt kê tất cả mà kể cả các fiel ẩn)
+tóm tắt level:Tìm mật khẩu trong một file ẩn nằm trong thư mục inhere 
+![Screenshot (45)](https://github.com/user-attachments/assets/f0012914-5dec-48af-ab38-8ed62a13ada6)
+
+cd  (change directory )là lệnh dùng để di chuyển đến các thư mục
+
+	ls-la (liệt kê tất cả mà kể cả các file ẩn)
 
 level 4->5 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 

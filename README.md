@@ -149,7 +149,8 @@ level 9->10 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
  	strings data.txt | grep == 
 
  strings giúp lấy ký tự kiểu các chuỗi (con người đọc được!?)
- ![Screenshot (52)](https://github.com/user-attachments/assets/8dce28b8-23e7-4b46-957b-dd0eb53de36e)
+ ![Screenshot (52)](https://github.com/user-attachments/assets/4a02ed71-fdc5-4e03-afb0-ecc97a662f3a)
+
 
 level 10->11 FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 ![image](https://github.com/user-attachments/assets/dc5092cf-5162-44a5-a7a6-a59df8b0047d)

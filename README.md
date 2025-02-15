@@ -1,4 +1,4 @@
-# Challenge-3-OTW
+Challenge-3-OTW
 Em lần đầu dùng github viết writeup ạ, mong anh thông cảm cho em ạ 
  
  Bandit
@@ -20,7 +20,8 @@ level 0 bảo chúng ta đăng nhập vào server bằng ssh
 	ví dụ như đăng nhập vào bandit0 như sau 
 
 	ssh bandit0@bandit.labs.overthewire.org -p 2220
- ![Screenshot (41)](https://github.com/user-attachments/assets/7c69e74b-ec37-4096-b367-47993c9c4b37)
+ ![Screenshot (41)](https://github.com/user-attachments/assets/a36528d2-9ad3-4b47-b8ab-08fddb2dacf7)
+
 	có 1 cách khác nữa là khai báo máy chủ và port sau đó khai báo user name 
  
  	ssh host -p port -l username
